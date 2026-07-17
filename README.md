@@ -1,52 +1,29 @@
 # Adam Fehmoun
 
-> Ranked **1st / 600** at ESIEE Paris (M.Eng, Data Science & AI) · Animath alumnus · CPGE PC* (top 1% national in Math & Physics) · Building at the intersection of **AI and quantitative finance**.
-
----
+> **1st / 600** at ESIEE Paris (M.Eng, Data Science & AI · first semester) · CPGE PC* (France's most selective STEM track) · Animath · Building at the intersection of **machine learning and quantitative finance**.
 
 ## Focus
+Quantitative research, systematic trading, and the engineering to ship models into production. Targeting Summer 2027 / off-cycle internships in quant research, algorithmic trading, and ML/AI — London · Paris · Amsterdam · NYC · Geneva.
 
-Quantitative research, algorithmic trading, and the engineering needed to ship models into production. Targeting elite quant roles in London, NYC, or Geneva — eventually returning to Morocco to contribute to the Casablanca Finance City ecosystem.
+## Selected work
 
-## Currently building
+**glicko2-ts** — Zero-dependency TypeScript implementation of the Glicko-2 rating system, validated against Glickman's paper (Illinois-method volatility solver). 70 tests, property-based invariants, 100% line coverage in CI.
+`TypeScript · Vitest · fast-check` — public
 
-### QuantGenesis — *White-Box Meta-Trading Platform*
-A pipeline of 5 specialized AI agents (Brainstormer → Project Lead → Architect → Critic → Compliance) translates natural-language strategy descriptions into auditable VectorBT backtests, executed in isolated MicroVM sandboxes. Designed for full compliance under EU AI Act Article 12.
+**TrueSight** — Production esports tournament SaaS (sole developer): ranked engine (Glicko-2), fine-tuned GPT-4o Vision for OCR match extraction, Stripe Connect payouts. Ran a real 42-team tournament with 159 users.
+`Next.js 16 · TypeScript · Supabase · Stripe` — private, access on request
 
-Led with a team of 5 at ESIEE Paris under the academic supervision of Lilian Buzer.
+**QuantGenesis** — Multi-agent LLM pipeline turning natural-language strategy ideas into sandboxed VectorBT backtests, with look-ahead-bias checks and AST-screened execution. Project lead, team of 5 (ESIEE, supervised by L. Buzer).
+`Python · FastAPI · Anthropic API · E2B · VectorBT`
 
-**Stack:** Python · FastAPI · Next.js 14 · Claude Opus · E2B · VectorBT · PostgreSQL · Redis · Docker · Railway
-
-> *Repository goes public after academic evaluation (June 2026).*
-
-### TrueSight — *Competitive Esport SaaS Platform*
-Sole founder. End-to-end multi-tenant SaaS for the competitive Call of Duty Mobile scene: ranked tournament engine (Glicko-2), advanced player statistics, recruitment system, OCR-based match result extraction via fine-tuned GPT-4o Vision, Stripe Connect escrow for payouts.
-
-**Stack:** Next.js 16 · TypeScript · Supabase · Stripe Connect · PostgreSQL · Tailwind · Vitest
-
-> *Private repository. Project paused to focus on QuantGenesis (academic + quant finance pivot).*
-
-## Background
-
-- **ESIEE Paris** — M.Eng Data Science & AI · 2025 – 2028 · **Ranked 1st in cohort (1st / 600)**
-- **CPGE PC*** — Lycée Henri Poincaré · 2023 – 2025 · Top 1% national in Advanced Mathematics & Physics
-- **Animath** — 2023 – Present · Olympiad-style problem solving (combinatorics, number theory, advanced algebra)
-- **MAMUN** — *Best Delegate* award
+## Currently
+Building a systematic quant research platform (ML signals + rigorous, look-ahead-free backtesting). Self-studying C++, stochastic calculus, and time-series modeling.
 
 ## Tech
-
-**Languages:** Python · TypeScript · C++ *(learning)* · SQL · Java
+**Languages:** Python · C++ *(learning)* · SQL · TypeScript · Java
 **ML / Data:** NumPy · Pandas · Scikit-Learn · PyTorch · Jupyter
-**Quant:** VectorBT · yfinance · QuantLib *(learning)*
-**Web / Backend:** FastAPI · Next.js · React · Supabase · PostgreSQL · Redis · Docker
-
-## Targeting
-
-Summer 2027 / Off-cycle internships in **Quantitative Research**, **Algorithmic Trading**, or **AI/ML Engineering** at quantitative hedge funds, prop trading firms, or investment banks.
-
-**Geography:** London (priority) · Paris · Amsterdam · NYC · Geneva
+**Quant:** VectorBT · yfinance · backtesting · QuantLib *(learning)*
+**Backend:** FastAPI · Next.js · Supabase · PostgreSQL · Redis · Docker
 
 ## Contact
-
-- **LinkedIn:** [adam-fehmoun](https://linkedin.com/in/adam-fehmoun)
-- **Location:** Paris, France
+📫 fehmoun.adam05@gmail.com · [LinkedIn](https://linkedin.com/in/adam-fehmoun) · Paris, France
